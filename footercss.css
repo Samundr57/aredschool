@@ -1,0 +1,60 @@
+/* Basic styling for the footer */
+footer {
+  background-color: #35374B;
+  color: #fff;
+  padding: 2rem 0;
+  padding-top: 4%;
+}
+
+/* Footer content styling */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-section {
+  flex-basis: calc(33.333% - 2rem);
+  margin-bottom: 1rem;
+}
+
+.footer-section h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Copyright styling */
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+  .footer-section {
+    flex-basis: calc(100% - 2rem);
+  }
+}
